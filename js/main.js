@@ -208,7 +208,7 @@ link:"https://project-next-cyan-eight.vercel.app/"
   {
     name: "Store(React)",
     img: "images/Store.png",
-    link: "https://project-next-cyan-eight.vercel.app/",
+    link: "https://speedstore.netlify.app/",
   },
 ];
 
@@ -238,34 +238,24 @@ displayProjects();
 let cert = [
   {
     name: "REACT",
-    img: "images/HackerRank.png",
-    link: "https://www.hackerrank.com/certificates/6103bafeffe1",
-  },
-  {
-    name: "PROBLEM SOLVING",
-    img: "images/P-S-I.png",
-    link: "https://www.hackerrank.com/certificates/e30a2b3c60bd",
+    img: "images/react.png",
+    link: "https://www.hackerrank.com/certificates/1c2338061b70",
   },
   
   {
-    name: "PROBLEM SOLVING",
-    img: "images/problem-basic.png",
-    link: "https://www.hackerrank.com/certificates/685bc23afa5e",
+    name: "CSS",
+    img: "images/css.png",
+    link: "https://www.hackerrank.com/certificates/096c0886820b",
   },
   {
-    name: "FrontEnd",
-    img: "images/udacity-pro.png",
-    link: "https://confirm.udacity.com/ZSFR6CZK",
+    name: "Responsive Web Design",
+    img: "images/responsive.png",
+    link: "https://www.freecodecamp.org/certification/fcc600bf811-2420-409b-8eaf-6cdbe6289af2/responsive-web-design ",
   },
   {
-    name: "FrontEnd",
-    img: "images/TESTDOME.png",
-    link: "https://app.testdome.com/cert/3e56756e45774d3188ca7785fb35ddf8 ",
-  },
-  {
-    name: "FrontEnd",
-    img: "images/egfwd.png",
-    link: "https://drive.google.com/file/d/1ABJOWLe7S7WuUQmwo_MJwr-v2zVwQgP_/view?usp=sharing ",
+    name: "JavaScript",
+    img: "images/java.png",
+    link: "https://www.hackerrank.com/certificates/b8c97dd07169?utm_campaign=social-buttons&utm_medium=linkedin&utm_source=certificate_social_share&social=linkedin",
   },
 ];
 
