@@ -257,6 +257,11 @@ let cert = [
     img: "images/java.png",
     link: "https://www.hackerrank.com/certificates/b8c97dd07169?utm_campaign=social-buttons&utm_medium=linkedin&utm_source=certificate_social_share&social=linkedin",
   },
+  {
+    name:"javascript Algorithms and Data Structure",
+    img:"images/javascript.png",
+    link:"https://www.freecodecamp.org/certification/fcc600bf811-2420-409b-8eaf-6cdbe6289af2/javascript-algorithms-and-data-structures-v8"
+  }
 ];
 
 let certContentDOM = document.querySelector(".cert-content");
