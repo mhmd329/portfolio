@@ -91,10 +91,23 @@ displaySkills();
 let experience = [
  
   {
-    image: "images/seen.jpeg",
+    image: "images/owlTech.gif",
     title: "FrontEnd Developer",
     from: "mar 2024",
-    to: "oct 2024",
+    to: " 2025",
+    company: "OwlTech",
+    companyColor: "#FBC005",
+    powerPoints: [
+      "Developed the company`s web-app",
+      "Developed the company`s mobile app",
+      "Dealt with Asp.Net",
+    ],
+  },
+  {
+    image: "images/seen.jpeg",
+    title: "FrontEnd Developer",
+    from: "jan 2023",
+    to: "oct 2023",
     companyColor: "#6579FA",
     company: "SEEN",
     powerPoints: [
@@ -102,19 +115,6 @@ let experience = [
       "Dealt with Sentry, MixPanel and FireBase ",
       "Dealt with TypeScript",
       "Dealt with Odoo",
-    ],
-  },
-  {
-    image: "images/owlTech.gif",
-    title: "FrontEnd Developer",
-    from: "dec 2022",
-    to: "feb 2023",
-    company: "OwlTech",
-    companyColor: "#FBC005",
-    powerPoints: [
-      "Developed the company`s web-app",
-      "Developed the company`s mobile app",
-      "Dealt with Asp.Net",
     ],
   },
   {
