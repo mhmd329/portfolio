@@ -89,7 +89,6 @@ displaySkills();
 
 // display experience
 let experience = [
- 
   {
     image: "images/owlTech.gif",
     title: "FrontEnd Developer",
@@ -165,6 +164,11 @@ displayExp();
 // DISPLAY PORTFOLIO PROJECTS
 let projects = [
   {
+    name: "Hotel managment(REACT,TAILWIND)",
+    img: "images/Hotel.png",
+    link: "https://hotel-managment-eight.vercel.app/",
+  },
+  {
     name: "OMN(react-uI)",
     img: "images/OMN.png",
     link: "https://omn-alpha.netlify.app/",
@@ -194,16 +198,11 @@ let projects = [
     img: "images/TODO.png",
     link: "https://todo-alpha.netlify.app/",
   },
-{
-name: "CARDASHBOARD - react",
-img:"images/dashboard.png",
-link:"https://car-dashboard-hazel.vercel.app/"
-},
-{
-name: "StoreBlog - next",
-img:"images/Stoore.png",
-link:"https://project-next-cyan-eight.vercel.app/"
-},
+  {
+    name: "CARDASHBOARD - react",
+    img: "images/dashboard.png",
+    link: "https://car-dashboard-hazel.vercel.app/",
+  },
 
   {
     name: "Store(React)",
@@ -241,7 +240,7 @@ let cert = [
     img: "images/react.png",
     link: "https://www.hackerrank.com/certificates/1c2338061b70",
   },
-  
+
   {
     name: "CSS",
     img: "images/css.png",
@@ -258,10 +257,10 @@ let cert = [
     link: "https://www.hackerrank.com/certificates/b8c97dd07169?utm_campaign=social-buttons&utm_medium=linkedin&utm_source=certificate_social_share&social=linkedin",
   },
   {
-    name:"javascript Algorithms and Data Structure",
-    img:"images/javascript.png",
-    link:"https://www.freecodecamp.org/certification/fcc600bf811-2420-409b-8eaf-6cdbe6289af2/javascript-algorithms-and-data-structures-v8"
-  }
+    name: "javascript Algorithms and Data Structure",
+    img: "images/javascript.png",
+    link: "https://www.freecodecamp.org/certification/fcc600bf811-2420-409b-8eaf-6cdbe6289af2/javascript-algorithms-and-data-structures-v8",
+  },
 ];
 
 let certContentDOM = document.querySelector(".cert-content");
