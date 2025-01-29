@@ -102,25 +102,12 @@ let experience = [
       "Dealt with Asp.Net",
     ],
   },
-  {
-    image: "images/seen.jpeg",
-    title: "FrontEnd Developer",
-    from: "jan 2023",
-    to: "oct 2023",
-    companyColor: "#6579FA",
-    company: "SEEN",
-    powerPoints: [
-      "Developed BuzzBot Mobile App",
-      "Dealt with Sentry, MixPanel and FireBase ",
-      "Dealt with TypeScript",
-      "Dealt with Odoo",
-    ],
-  },
+  
   {
     image: "images/upWork.jpeg",
     title: "FrontEnd Developer",
-    from: "Mar 2022",
-    to: "aug 2022",
+    from: "Mar 2023",
+    to: "aug 2023",
     company: "Freelance",
     companyColor: "#15A800",
     powerPoints: [
