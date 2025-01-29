@@ -196,6 +196,11 @@ let projects = [
     img: "images/Store.png",
     link: "https://speedstore.netlify.app/",
   },
+  {
+    name: "Ecommerce(React)",
+    img: "images/ecommerce.png",
+    link: "https://e-commerce-git-main-mohamed-khaleds-projects-a6b5dc0e.vercel.app/Store",
+  },
 ];
 
 let projectsContentDOM = document.querySelector(".portfolio-content");
