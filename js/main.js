@@ -151,6 +151,11 @@ displayExp();
 // DISPLAY PORTFOLIO PROJECTS
 let projects = [
   {
+    name: "Social Media(REACT)",
+    img: "images/social3.png",
+    link: "https://social-media-site-omega.vercel.app/",
+  },
+  {
     name: "Hotel managment(REACT,TAILWIND)",
     img: "images/Hotel.png",
     link: "https://hotel-managment-eight.vercel.app/",
