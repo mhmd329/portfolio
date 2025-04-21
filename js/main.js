@@ -90,10 +90,24 @@ displaySkills();
 // display experience
 let experience = [
   {
+    image: "images/sb.jpeg",
+    title: "FrontEnd Developer",
+    from: "feb 2025",
+    to: " Present",
+    company: "Soul Body",
+    companyColor: "#FBC005",
+    powerPoints: [
+      "as a front-end developer for a software house specializing in medical websites and ERP systems for hospitals and clinics",
+      "Collaborated with designers and back-end developers to create acohesive and user-friendly interface",
+      "Building and maintaining high-performance web applications using React and Next",
+    ],
+  },
+  
+  {
     image: "images/owlTech.gif",
     title: "FrontEnd Developer",
-    from: "mar 2024",
-    to: " 2025",
+    from: "sep 2023",
+    to: "jan 2025",
     company: "OwlTech",
     companyColor: "#FBC005",
     powerPoints: [
@@ -102,8 +116,8 @@ let experience = [
       "Dealt with Asp.Net",
     ],
   },
-  
-  {
+ 
+ {
     image: "images/upWork.jpeg",
     title: "FrontEnd Developer",
     from: "Mar 2023",
