@@ -170,6 +170,11 @@ let projects = [
     link: "https://social-media-site-omega.vercel.app/",
   },
   {
+    name: "pharmacy store(NEXT)",
+    img: "images/pharma.png",
+    link: "https://pharmacy-tawny-one.vercel.app/",
+  },
+  {
     name: "Hotel managment(REACT,TAILWIND)",
     img: "images/Hotel.png",
     link: "https://hotel-managment-eight.vercel.app/",
