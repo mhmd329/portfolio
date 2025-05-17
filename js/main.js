@@ -68,6 +68,12 @@ let skills = [
   { name: "JQUERY", icon: "mdi:jquery" },
   { name: "BOOTSTRAP", icon: "logos:bootstrap" },
   { name: "JSON & AJAX & AXIOS", icon: "bx:bxs-file-json" },
+  { name: "Tailwind CSS", icon: "devicon:tailwindcss" },
+  { name: "Redux", icon: "skill-icons:redux" },
+  { name: "Zustand", icon: "simple-icons:zustand" },
+  { name: "Postman", icon: "logos:postman-icon" },
+  { name: "Figma", icon: "logos:figma" },
+  { name: "TypeScript ESLint", icon: "logos:eslint" },
 ];
 
 let skillsContentDOM = document.querySelector(".skills-content");
@@ -102,7 +108,7 @@ let experience = [
       "Building and maintaining high-performance web applications using React and Next",
     ],
   },
-  
+
   {
     image: "images/owlTech.gif",
     title: "FrontEnd Developer",
@@ -116,8 +122,8 @@ let experience = [
       "Dealt with Asp.Net",
     ],
   },
- 
- {
+
+  {
     image: "images/upWork.jpeg",
     title: "FrontEnd Developer",
     from: "Mar 2023",
@@ -142,9 +148,8 @@ const displayExp = () => {
         <img width='60rem' height='60rem' src='${exp.image}'/>
         <div class=''>
         <p class='title'>${exp.title}</p>
-        <p style='color:${exp.companyColor};' class='company'> ${
-      exp.company
-    }</p>
+        <p style='color:${exp.companyColor};' class='company'> ${exp.company
+      }</p>
         <div class='flex date'>
         <p >${exp.from} - </p>
         <p> ${exp.to}</p>
@@ -173,6 +178,11 @@ let projects = [
     name: "pharmacy store(NEXT)",
     img: "images/pharma.png",
     link: "https://pharmacy-tawny-one.vercel.app/",
+  },
+  {
+    name: "Runzu store(REACT,NODE(FullStack))",
+    img: "images/Runzudashboardٌ.png",
+    link: "https://runzu-store.vercel.app/",
   },
   {
     name: "Hotel managment(REACT,TAILWIND)",
