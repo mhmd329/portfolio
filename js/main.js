@@ -96,12 +96,26 @@ displaySkills();
 // display experience
 let experience = [
   {
+    image: "images/atheel.jpg",
+    title: "FrontEnd Developer",
+    from: "jun 2025",
+    to: " Present",
+    company: "Atheel cx",
+    companyColor: "#0055B6",
+    powerPoints: [
+      "Working as a Front-End Developer at Atheel CX, contributing to the development of customer experience platforms",
+      "Building responsive, scalable web interfaces using React and Next.js",
+      "Collaborating closely with backend and product teams to integrate APIs and deliver seamless user experiences",
+    ],
+
+  },
+  {
     image: "images/sb.jpeg",
     title: "FrontEnd Developer",
     from: "feb 2025",
-    to: " Present",
+    to: " jun 2025",
     company: "Soul Body",
-    companyColor: "#FBC005",
+    companyColor: "#009688",
     powerPoints: [
       "as a front-end developer for a software house specializing in medical websites and ERP systems for hospitals and clinics",
       "Collaborated with designers and back-end developers to create acohesive and user-friendly interface",
