@@ -193,11 +193,11 @@ let projects = [
     img: "images/pharma.png",
     link: "https://pharmacy-tawny-one.vercel.app/",
   },
-  {
-    name: "Runzu store(REACT,NODE(FullStack))",
-    img: "images/Runzudashboardٌ.png",
-    link: "https://runzu-store.vercel.app/",
-  },
+  // {
+  //   name: "Runzu store(REACT,NODE(FullStack))",
+  //   img: "images/Runzudashboardٌ.png",
+  //   link: "https://runzu-store.vercel.app/",
+  // },
   {
     name: "Hotel managment(REACT,TAILWIND)",
     img: "images/Hotel.png",
