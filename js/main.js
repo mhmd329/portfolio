@@ -97,17 +97,17 @@ displaySkills();
 let experience = [
   {
     image: "images/atheel.jpg",
-    title: "FrontEnd Developer",
-    from: "jun 2025",
-    to: " Present",
-    company: "Atheel cx",
+    title: "Front-End Developer",
+    from: "Jun 2025",
+    to: "Present",
+    company: "Atheel CX",
     companyColor: "#0055B6",
     powerPoints: [
-      "Working as a Front-End Developer at Atheel CX, contributing to the development of customer experience platforms",
-      "Building responsive, scalable web interfaces using React and Next.js",
-      "Collaborating closely with backend and product teams to integrate APIs and deliver seamless user experiences",
+      "Working as a Front-End Developer at Atheel CX, contributing to the development of customer experience platforms.",
+      "Building responsive and user-friendly web interfaces using React.js and Next.js.",
+      "Collaborating closely with back-end and product teams to integrate APIs and ensure seamless user experiences.",
+      "Occasionally supporting back-end development using NestJS, Node.js, or Python frameworks (FastAPI, Django) as needed.",
     ],
-
   },
   {
     image: "images/sb.jpeg",
