@@ -98,7 +98,7 @@ let experience = [
   {
     image: "images/atheel.jpg",
     title: "Front-End Developer",
-    from: "Jun 2025",
+    from: "April 2025",
     to: "Present",
     company: "Atheel CX",
     companyColor: "#0055B6",
@@ -112,8 +112,8 @@ let experience = [
   {
     image: "images/sb.jpeg",
     title: "FrontEnd Developer",
-    from: "feb 2025",
-    to: " jun 2025",
+    from: "Oct 2024",
+    to: " April 2025",
     company: "Soul Body",
     companyColor: "#009688",
     powerPoints: [
@@ -127,28 +127,13 @@ let experience = [
     image: "images/owlTech.gif",
     title: "FrontEnd Developer",
     from: "sep 2023",
-    to: "jan 2025",
+    to: "Aug 2024",
     company: "OwlTech",
     companyColor: "#FBC005",
     powerPoints: [
       "Developed the company`s web-app",
       "Developed the company`s mobile app",
       "Dealt with Asp.Net",
-    ],
-  },
-
-  {
-    image: "images/upWork.jpeg",
-    title: "FrontEnd Developer",
-    from: "Mar 2023",
-    to: "aug 2023",
-    company: "Freelance",
-    companyColor: "#15A800",
-    powerPoints: [
-      "fixing bugs ",
-      " updating UI/UX",
-      "integrating new features",
-      "refactoring code to enhance performance",
     ],
   },
 ];
@@ -162,8 +147,9 @@ const displayExp = () => {
         <img width='60rem' height='60rem' src='${exp.image}'/>
         <div class=''>
         <p class='title'>${exp.title}</p>
-        <p style='color:${exp.companyColor};' class='company'> ${exp.company
-      }</p>
+        <p style='color:${exp.companyColor};' class='company'> ${
+      exp.company
+    }</p>
         <div class='flex date'>
         <p >${exp.from} - </p>
         <p> ${exp.to}</p>
