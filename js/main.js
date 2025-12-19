@@ -103,10 +103,10 @@ let experience = [
     company: "Atheel CX",
     companyColor: "#0055B6",
     powerPoints: [
-      "Working as a Front-End Developer at Atheel CX, contributing to the development of customer experience platforms.",
-      "Building responsive and user-friendly web interfaces using React.js and Next.js.",
-      "Collaborating closely with back-end and product teams to integrate APIs and ensure seamless user experiences.",
-      "Occasionally supporting back-end development using NestJS, Node.js, or Python frameworks (FastAPI, Django) as needed.",
+      "I work as a Front-End Developer, focusing on building responsive and user-friendly web applications using modern frontend technologies.",
+      "I contribute primarily to frontend development while also supporting backend tasks when needed, including implementing CRUD operations and integrating APIs using Node.js and NestJS.",
+      "’ve worked on multiple projects, including: Developing and maintaining the company portfolio website with a strong focus on responsive design and UI consistency.",
+      "Contributing to a real-time chat application (Trio Chat), collaborating with the team to build interactive user interfaces and support real-time features.",
     ],
   },
   {
@@ -117,9 +117,10 @@ let experience = [
     company: "Soul Body",
     companyColor: "#009688",
     powerPoints: [
-      "as a front-end developer for a software house specializing in medical websites and ERP systems for hospitals and clinics",
-      "Collaborated with designers and back-end developers to create acohesive and user-friendly interface",
-      "Building and maintaining high-performance web applications using React and Next",
+      "As a Front-End Developer at a software house specializing in medical websites and ERP systems for hospitals and clinics:",
+      "• Owned the frontend development of medical ERP dashboards and a pharmacy e-commerce platform, focusing on scalable and maintainable UI architecture using React and Next.js.",
+      "• Collaborated cross-functionally with designers and backend developers to translate complex medical and business requirements into user-friendly interfaces.",
+      "• Built and maintained high-performance web applications, optimizing rendering behavior and improving maintainability through reusable components.",
     ],
   },
 
