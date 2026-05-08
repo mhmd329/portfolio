@@ -6,9 +6,9 @@ const showLinks = (icon, listLinks) => {
   toggle.addEventListener("click", () => nav.classList.toggle("show"));
 
   document.addEventListener("click", (e) => {
-    e.target.className !== "icon" && e.target.className !== "icon-shape"
-      ? nav.classList.remove("show")
-      : false;
+    e.target.className !== "icon" && e.target.className !== "icon-shape" ?
+      nav.classList.remove("show")
+    : false;
   });
 };
 
@@ -29,8 +29,9 @@ links.forEach((link) => link.addEventListener("click", showActions));
 
 // DARK MODE SETTINGS
 let modeToggle = document.getElementById("dark-mode-toggle");
-let dark_on = localStorage.getItem("dark_on")
-  ? JSON.parse(localStorage.getItem("dark_on"))
+let dark_on =
+  localStorage.getItem("dark_on") ?
+    JSON.parse(localStorage.getItem("dark_on"))
   : false;
 
 let dark = "#051e34";
@@ -97,44 +98,43 @@ displaySkills();
 let experience = [
   {
     image: "images/atheel.jpg",
-    title: "Front-End Developer",
+    title: "Front-End Engineer",
     from: "April 2025",
     to: "Present",
     company: "Atheel CX",
     companyColor: "#0055B6",
     powerPoints: [
-      "I work as a Front-End Developer, focusing on building responsive and user-friendly web applications using modern frontend technologies.",
-      "I contribute primarily to frontend development while also supporting backend tasks when needed, including implementing CRUD operations and integrating APIs using Node.js and NestJS.",
-      "’ve worked on multiple projects, including: Developing and maintaining the company portfolio website with a strong focus on responsive design and UI consistency.",
-      "Contributing to a real-time chat application (Trio Chat), collaborating with the team to build interactive user interfaces and support real-time features.",
+      "Built real-time chat system with live messaging,queue management, media handling, and Socket.IO-based updates.",
+      "Improved performance and state management for high-frequency real-time data flows",
+      "Collaborated with backend and UI/UX teams to deliver responsive and production-ready applications.",
+      "Built and maintained production real-time communication platform using React, Next.js, Redux Toolkit, and Socket.IO.",
     ],
   },
   {
     image: "images/sb.jpeg",
-    title: "FrontEnd Developer",
+    title: "Front-End Engineer",
     from: "Oct 2024",
     to: " April 2025",
     company: "Soul Body",
     companyColor: "#009688",
     powerPoints: [
-      "As a Front-End Developer at a software house specializing in medical websites and ERP systems for hospitals and clinics:",
-      "• Owned the frontend development of medical ERP dashboards and a pharmacy e-commerce platform, focusing on scalable and maintainable UI architecture using React and Next.js.",
-      "• Collaborated cross-functionally with designers and backend developers to translate complex medical and business requirements into user-friendly interfaces.",
-      "• Built and maintained high-performance web applications, optimizing rendering behavior and improving maintainability through reusable components.",
+      "Owned Front-End development of a pharmacy e-commerce platform with scalable UI architecture using Next.js.",
+      "Designed reusable UI components for complex healthcare and business workflows.",
+      "Optimized rendering performance and frontend architecture for better scalability and maintainability.",
     ],
   },
 
   {
     image: "images/owlTech.gif",
-    title: "FrontEnd Developer",
+    title: "Front-End Engineer",
     from: "sep 2023",
     to: "Aug 2024",
     company: "OwlTech",
     companyColor: "#FBC005",
     powerPoints: [
-      "Developed the company`s web-app",
-      "Developed the company`s mobile app",
-      "Dealt with Asp.Net",
+      "Developed responsive web applications using React.js and JavaScript",
+      "Collaborated with designers and backend developers to build user-focused interfaces and reusable frontend components",
+      "Participated in code reviews and frontend architecture discussions to improve code quality and maintainability",
     ],
   },
 ];
@@ -149,8 +149,8 @@ const displayExp = () => {
         <div class=''>
         <p class='title'>${exp.title}</p>
         <p style='color:${exp.companyColor};' class='company'> ${
-      exp.company
-    }</p>
+          exp.company
+        }</p>
         <div class='flex date'>
         <p >${exp.from} - </p>
         <p> ${exp.to}</p>
