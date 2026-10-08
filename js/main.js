@@ -98,16 +98,16 @@ displaySkills();
 let experience = [
   {
     image: "images/atheel.jpg",
-    title: "Front-End Engineer",
+    title: "Senior Front-End Engineer",
     from: "April 2025",
     to: "Present",
     company: "Atheel CX",
     companyColor: "#0055B6",
     powerPoints: [
-      "Built real-time chat system with live messaging,queue management, media handling, and Socket.IO-based updates.",
-      "Improved performance and state management for high-frequency real-time data flows",
-      "Collaborated with backend and UI/UX teams to deliver responsive and production-ready applications.",
-      "Built and maintained production real-time communication platform using React, Next.js, Redux Toolkit, and Socket.IO.",
+      "Led the development of scalable, production-grade web applications using React, Next.js, Redux Toolkit, and Socket.IO.",
+      "Designed and evolved front-end architecture for real-time systems, including a Ministry of Health live calls platform and a real-time customer communication platform.",
+      "Developed and maintained complex business applications including CRM, ERP, inventory management, e-commerce, and analytics dashboards.",
+      "Improved application performance, state management, and real-time data handling across high-frequency production systems.",
     ],
   },
   {
